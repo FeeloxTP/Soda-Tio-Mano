@@ -1,0 +1,198 @@
+.menu{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.containerComida{
+    width: 100%;
+    height: auto;
+    color: black;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-top: 5%;
+
+}
+
+.containerComida section{
+    flex-basis: calc(33.33% - 20px); /* Ancho de cada columna (menos el espacio entre columnas) */
+    box-sizing: border-box;
+    border: 1px solid #e0cbcb;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2%;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+
+.listaComida{
+    width: 80%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.centradoEsp{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8%;
+    box-sizing: border-box;
+}
+
+.comidaEspañol{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8%;
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+}
+
+
+
+.comidaEspañol p{
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    transform: translate(5px, 0px);
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.comidaEspañol p:first-child{
+    font-weight: bold;
+}
+
+.descripcion{
+    width: 80%;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    display: flex;
+    font-weight: lighter;
+}
+
+.descripcion p{
+    width: 100%;
+    height: auto;
+    font-size: 90%;
+    margin: 0px auto 0px auto !important;
+    transform: translate(54px, 0px);
+    padding-bottom: 5%;
+}
+
+.containerComida section h3{
+    text-align: center;
+    margin-bottom: 9%;
+    font-size: 45px;
+    font-family: "Twistko1",Arial, Helvetica, sans-serif;
+}
+
+/*el rombo que tiene el h3 que seria eel nombre de la comida */
+
+#container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+}
+
+.figura{
+    
+    width: 65px;
+    height: 65px;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 0;
+}
+
+.frase{
+    position: relative;
+    z-index: 1; 
+    /* Establece un valor de z-index mayor para la frase */
+}
+
+.precioComidaGrande{
+    transform: translate(0px, 20px) !important;
+}
+
+.dosPrecios p{
+    padding-bottom: 5%;
+}
+
+.muchosPrecios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+.listaPollo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+
+.listaPollo p:nth-child(2){
+    transform: translate(10px ,0px) !important;
+}
+
+.listaPolloIngles{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    padding-top: 5%;
+}
+
+
+.listaPolloIngles p:nth-child(2){
+    transform: translate(0px ,0px) !important;
+}
+
+.comidaIngles-descripcion{
+    display: none;
+    
+}
+
+.opcionesEspañol{
+    margin-left: 5%;
+    width: 90%;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.centradoEsp{
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+}
+

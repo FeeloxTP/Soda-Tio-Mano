@@ -1,0 +1,87 @@
+#titulo-menu-ingles{
+    display: none;
+}
+
+.comida-ingles{
+    display: none;
+    justify-content: space-around;
+    width: 100%;
+    
+    margin-bottom: 4%;
+}
+
+.comida-ingles p{
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    transform: translate(5px, 0px);
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.comida-ingles p:first-child{
+    font-weight: bold;
+}
+
+.descIngles{
+    transform: translate(0px, -15px);
+}
+
+.CategoriaMenu-ingles{
+    display: none;
+}
+
+.comida-ingles .descripcion p{
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    font-size: 90%;
+    margin: 0px auto 0px auto !important;
+    transform: translate(-5px, 0px);
+    padding: 0;
+    padding-bottom: 5%;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+.comida-ingles .descripcion{
+    width: 68%;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.footerIng{
+    display: none;
+}
+
+.horarioIngles{
+    display: none;
+}
+
+.gaseosa-Ingles{
+    display: none;
+}
+
+.opcionesIngles{
+    display: none;
+    margin-left: 5%;
+    width: 90%;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+.centradoIng{
+    display: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8%;
+    box-sizing: border-box;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}

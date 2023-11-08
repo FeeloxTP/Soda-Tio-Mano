@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+.Menu {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    height: auto;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+}
+
+.MenuIngles{
+    width: 100%;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    height: auto;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+}
+
+.MenuCommmida {
+    width: 37%;
+    height: auto;
+    box-sizing: border-box !important;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    border: solid 2px;
+    box-shadow: 16px 14px 20px #0000008c,
+        -16px -14px 20px #0000008c;
+    gap: 20px;
+    padding: 10px 0px;
+    transition: 700ms all;
+}
+
+.MenuCommmida li {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    text-align: left;
+}
+
+.MenuCommmida li a {
+    margin-left: 0%;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.MenuCommmida li img {
+    width: 40px;
+    height: auto;
+    margin-right: 10%;
+}
+
+.MenuCommmidaIngles{
+    display: none;
+}
+
+.MenuCommmidaEspañol{
+    display: flex;
+}
+
+.sinTraduccion{
+    display: flex;
+}

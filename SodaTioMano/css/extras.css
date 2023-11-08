@@ -1,0 +1,110 @@
+.contenedorExtras{
+    width: 100%;
+    height: auto;
+    color: black;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    border: none;
+
+}
+
+.contenedorExtras section{
+    flex-basis: calc(34% - 27px); /* Ancho de cada columna (menos el espacio entre columnas) */
+    box-sizing: border-box;
+    border: 1px solid #e0cbcb;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: grid;
+    place-items: center;
+}
+
+.contenedorSubComida{
+    width: 100%;
+    height: auto;
+    color: black;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.contenedorSubComida div{
+    flex-basis: 70%; /* Ancho de cada columna (menos el espacio entre columnas) */
+    box-sizing: border-box;
+    
+    display: grid;
+    place-items: center;
+}
+
+.listaExtra{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+    padding-top: 5%;
+}
+
+.extraEspañol{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8%;
+    width: 90%;
+    height: auto;
+    padding: 0;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.extraEspañol p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+/*.extraEspañol p:nth-child(2){
+    width: 44%;
+    height: 10px;
+    padding-right: 40%;
+    transform: translate(20px, 0px);
+    box-sizing: border-box;
+}*/
+
+
+.extraIngles{
+    display: none;
+    justify-content: space-between;
+    margin-bottom: 8%;
+    width: 90%;
+    height: auto;
+    padding: 0;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+}
+
+
+
+.extraIngles p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.contenedorExtras h1{
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+#exxx{
+    width: 100%;
+    display: flex;
+}
+

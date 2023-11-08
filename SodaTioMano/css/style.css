@@ -1,0 +1,339 @@
+@import "fuentes.css";
+@import "contacto.css";
+@import "common.css";
+@import "inicio.css";
+@import "submenu.css";
+@import "footer.css";
+@import "MenuComida.css";
+@import "ingles.css";
+@import "footerBlanco.css";
+@import "textosIngles.css";
+@import "container-regresar.css";
+@import "color.css";
+@import "extras.css";
+@import "tablaBebidas.css";
+
+@media (max-width: 940px) {
+    .menu {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .MenuCommmida {
+        width: 60%;
+        height: auto;
+    }
+
+    .MenuCommmida li {
+        width: 60%;
+        height: auto;
+        margin: 0;
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .inicioIndex {
+        height: 780px;
+    }
+
+    .inicioSubMenu{
+        height: 550px;
+    }
+
+    .texto-principal {
+        padding: 0 !important;
+    }
+
+    #logo {
+        width: 68px;
+        height: 75px;
+    }
+
+
+    .navbar-nav {
+        margin-top: 8% !important;
+    }
+
+    .container-botn {
+        width: 10%;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        height: auto;
+        box-sizing: border-box;
+
+    }
+
+    #boton-ingles {
+        text-align: left;
+        box-sizing: border-box !important;
+        width: 100%;
+        height: auto;
+    }
+
+    .info {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .info p {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 15%;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .MenuCommmida {
+        width: 90%;
+        height: auto;
+    }
+
+    .MenuCommmida li {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding-left: 5%;
+    }
+
+
+
+    .containerComida {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .containerComida section {
+        width: 100%;
+        height: auto;
+        border: none;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .listaComida {
+        width: 90%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0;
+        border: 1px solid #e0cbcb;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        margin-bottom: 5px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .contenedorExtras {
+        width: 100%;
+        height: auto;
+        display: block;
+        border: none
+    }
+
+    .contenedorExtras section {
+        width: 100%;
+        height: auto;
+        border: none;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .listaExtra {
+        border: 1px solid #e0cbcb;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        margin-bottom: 5px;
+        padding-left: 2%;
+        text-align: left;
+        box-sizing: border-box;
+    }
+
+    .contenedorSubComida {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .contenedorSubComida div {
+        flex-basis: 65%;
+    }
+
+    .comidaEspañol {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .comidaEspañol p {
+        width: 25%;
+        height: auto;
+        transform: translate(0px, 0px);
+        padding-top: 5%;
+    }
+
+
+    .comidaEspañol p:nth-child(2) {
+        width: 10%;
+    }
+
+    .comida-ingles {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .comida-ingles p {
+        width: 25%;
+        height: auto;
+        transform: translate(0px, 0px);
+        padding-top: 5%;
+    }
+
+
+    .comida-ingles p:nth-child(2) {
+        width: 10%;
+    }
+
+
+
+
+
+    .descripcion {
+        width: 75%;
+        height: auto;
+        box-sizing: border-box !important;
+        font-size: 15px;
+        margin: 0 auto 0 auto;
+        padding: 0;
+    }
+
+    .descripcion p {
+        transform: translate(17px, 0px);
+    }
+
+    .comida-ingles .descripcion p {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box !important;
+        font-size: 15px;
+        margin: 0 auto 0 auto;
+        transform: translate(3px, 0px);
+    }
+
+    .containerComida section h3 {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+
+    .FuncionalesEspañol p {
+        width: 44%;
+    }
+
+    .FuncionalesIngles p {
+        width: 44%;
+    }
+
+    .hierbabuenaEspañol {
+        padding-right: 2%;
+    }
+
+    .hierbabuenaIngles {
+        padding-right: 2%;
+    }
+
+    .listaContacto {
+        width: 90%;
+        height: 200px;
+        border: 1px solid #e0cbcb;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .listaContacto a:first-child {
+        margin-top: 5%;
+    }
+
+    .listaContacto a:last-child {
+        margin-bottom: 5%;
+    }
+
+
+    footer {
+        width: 100%;
+        height: auto;
+        display: block;
+        border: none;
+    }
+
+    footer .wave {
+        border: none;
+    }
+
+    .div-container {
+        width: 100%;
+        height: auto;
+        display: block;
+        border: none;
+    }
+
+    .div-container div {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding-left: 5%;
+        border: none;
+
+    }
+
+    .div-container div p {
+        width: 90%;
+        height: auto;
+        display: block;
+        border: none;
+
+    }
+
+    .div-container div ul {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .div-container div ul li {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 5%;
+        padding-left: 5%;
+    }
+
+    .div-container div ul li a {
+        width: 80%;
+    }
+
+    #copy {
+        margin-top: 10%;
+    }
+
+    .muchaInfo {
+        margin-bottom: 5%;
+    }
+
+    #direccionFooter{
+        height: 28px;
+    }
+
+}

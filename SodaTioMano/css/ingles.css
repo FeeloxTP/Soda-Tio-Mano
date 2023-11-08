@@ -1,0 +1,23 @@
+#ingles1{
+    display: none;
+}
+
+#boton-ingles{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.container-botn{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: grid;
+    place-items: left;
+}

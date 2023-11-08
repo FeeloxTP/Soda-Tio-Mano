@@ -1,0 +1,66 @@
+.inicioIndex{
+    width: 100%;
+    height: 850px;
+    margin: 0;
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url('../img/Fachada\ Soda\ Tío\ Mano.jpg');
+    background-size: cover;     
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: center;
+    font-weight: bold !important;
+    
+}
+
+.inicioSubMenu{
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url('../img/Fachada\ Soda\ Tío\ Mano.jpg');
+    background-size: cover;     
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: center;
+    font-weight: bold !important;
+    
+}
+
+
+#navegado{
+    background-color: transparent !important;
+    color: aliceblue !important;
+}
+
+
+
+.nav-link{
+    color: aliceblue !important;
+}
+
+#logo{
+    width: 88px;
+    height: 95px;
+    border-radius: 90%;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
+
+}
+
+.info {
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    font-family: "Avenir",Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.info p {
+    margin: 0;
+    margin: 1% 0 5% 2%;
+}

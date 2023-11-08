@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0 auto 0 auto !important;
+    padding: 0 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    border-style: none;
+    text-decoration: none;
+    
+}
+
+a{
+    text-decoration: none;
+    border-style: none;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+.negrita{
+    font-weight: bold;
+}

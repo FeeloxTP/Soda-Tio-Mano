@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Tío Mano</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    
+</head>
+
+<body>
+    <header class="inicioSubMenu">
+        <section class="container">
+            <nav id="navegado" class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
+                <div class="container-fluid">
+                    <img class="navbar-brand" src="img/logo clasico.jpg" id="logo" onclick="inicio()"></img>
+                    <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup " aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation ">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="index.html" id="textoDelMenu">Inicio</a>
+                            <a class="nav-link" href="#" id="textoDelMenuNosotros">Nosotros</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="info">
+                <section class="container-botn">
+                    <button type="button" id="boton-ingles">English</button>
+                </section>
+
+                <h1>Soda Tío Mano</h1>
+                <p class="texto-principal">
+                    La casa de la Leche Tica desde 1977
+                </p>
+
+                <p id="ingles1">
+                    The house of "Leche tica" since 1977
+                </p>
+
+            </section>
+        </section>
+    </header>
+    <main>
+        <section class="menu">
+
+            <section class="containerComida">
+                <section>
+                    <div id="container">
+                        <div class="figura" style="background-color: var(--amarillo-);">
+
+                        </div>
+                        <div class="frase">
+                            <h3 class="CategoriaMenu-español">Batidos</h3>
+                            <h3 class="CategoriaMenu-ingles">Shakes</h3>
+                        </div>
+                    </div>
+                    <ul class="listaComida">
+                        <li class="comidaEspañol">
+                            <p>Leche tica</p>
+                            <p>₡1.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Leche Tica</p>
+                            <p>₡1.500</p>
+                        </li><!--se agrega la clase de comida ingles para que aparezca la descripcion -->
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Leche con vainilla y canela
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Milk, vainilla, and cinnamon with our special touch
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comidaEspañol">
+                            <p>Cebada</p>
+                            <p>₡1.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Barley</p>
+                            <p>₡1.500</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Cebada con leche
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Barley and milk
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Cocomalt</p>
+                            <p>₡1.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Cocomalt</p>
+                            <p>₡1.500</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Leche con cacao
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Cocoa and milk
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Crema</p>
+                            <p>₡1.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Vainilla</p>
+                            <p>₡1.500</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Crema de vainilla
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Vainilla milkshake
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Horchata</p>
+                            <p>₡1.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Horchata</p>
+                            <p>₡1.500</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Horchata con canela y leche
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Horchata milkshake with cinnamon
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Frozen Cappuccino</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Frozen Cappuccino</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Café frío, canela y chantilly
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Iced coffee, cinnamon and whipped cream
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Frozen Mocaccino</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Frozen Mocaccino</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Café frío, chocolate y chantilly
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Iced coffee, cocoa and whipped cream
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Milkshakes</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Milkshakes</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Leche y su helado favorito
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Milk and your favorite ice
+                                    cream flavor
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+            </section>
+
+            <section class="menu">
+                <section class="containerComida">
+                    <section>
+                        <div id="container">
+                            <div class="figura" style="background-color: var(--salmon-);">
+
+                            </div>
+                            <div class="frase">
+                                <h3 class="CategoriaMenu-español">Bebidas Frías</h3>
+                                <h3 class="CategoriaMenu-ingles">Cold Drinks</h3>
+                            </div>
+                        </div>
+                        <ul class="listaComida">
+                            <table class="tablaBebidasEspañol">
+                                <tr>
+                                    <th></th>
+                                    <th class="colspan2" style="font-weight: bold;">Agua</th>
+                                    <th class="colspan2" style="font-weight: bold;">Leche</th>
+                                </tr>
+                                <tr>
+                                    <th style="font-weight: bold;">Banano</th>
+                                    <th>₡1.400</th>
+                                    <th>₡1.800</th>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Cas</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Tamarindo</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Maracuyá</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Papaya</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Sandía</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Piña</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Limonada</td>
+                                    <td>₡1.400</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Guanábana</td>
+                                    <td>₡1.700</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Mora</td>
+                                    <td>₡1.700</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Fresa</td>
+                                    <td>₡1.700</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Chan</td>
+                                    <td>₡1.000</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Mozote</td>
+                                    <td>₡1.000</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Jugo de naranja</td>
+                                    <td>₡1.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Té frío </td>
+                                    <td>₡1.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Frutas</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Naranja zanahoria</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+                                <!-- Agrega el resto de las filas aquí -->
+                            </table>
+
+
+                            <!--tabla en ingles-->
+                            <table class="tablaBebidasIngles">
+                                <tr>
+                                    <th></th>
+                                    <th class="colspan2" style="font-weight: bold;">Water</th>
+                                    <th class="colspan2" style="font-weight: bold;">Milk</th>
+                                </tr>
+                                <tr>
+                                    <th style="font-weight: bold;">Banana</th>
+                                    <th>₡1.400</th>
+                                    <th>₡1.800</th>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Costa Rican guava</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Tamarind</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Passion Fruit</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Papaya</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">watermelon</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Pineapple</td>
+                                    <td>₡1.400</td>
+                                    <td>₡1.800</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Lemonade</td>
+                                    <td>₡1.400</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Soursop</td>
+                                    <td>₡1.700</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Blackberry</td>
+                                    <td>₡1.700</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Strawberry</td>
+                                    <td>₡1.700</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Chia seeds</td>
+                                    <td>₡1.000</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Mozote plant</td>
+                                    <td>₡1.000</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Orange Juice</td>
+                                    <td>₡1.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Iced Tea</td>
+                                    <td>₡1.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Fruit Mix</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Carrot-Orange</td>
+                                    <td>₡2.200</td>
+
+                                </tr>
+
+                                <!-- Agrega el resto de las filas aquí -->
+                            </table>
+                            <h4 class="hierbabuenaEspañol">Con hierbabuena +₡350</h4>
+                            <h4 class="hierbabuenaIngles">Extra peppermint +₡350</h4>
+
+                            <div class="funcionalidades">
+                                <li class="FuncionalesEspañol">
+                                    <p style="font-size: 20px;">Funcionales</p>
+                                    <p>₡2.500</p>
+                                </li>
+                                <li class="FuncionalesIngles">
+                                    <p>Healthy Smoothies</p>
+                                    <p>₡2.500</p>
+                                </li>
+
+                                <li class="FuncionalesEspañol">
+                                    <p>Antigripal:</p>
+                                    <p>jengibre, naranja, miel y limón</p>
+                                </li>
+                                <li class="FuncionalesIngles">
+                                    <p>Flu buster:</p>
+                                    <p>ginger, orange, honey & lemon</p>
+                                </li>
+
+                                <li class="FuncionalesEspañol">
+                                    <p>Cardio:</p>
+                                    <p>aguacate, banano, piña y mango</p>
+                                </li>
+                                <li class="FuncionalesIngles">
+                                    <p>Cardio:</p>
+                                    <p>avocado, banana, pineapple & mango</p>
+                                </li>
+
+                                <li class="FuncionalesEspañol">
+                                    <p>Proteína:</p>
+                                    <p>proteína, banano y naranja</p>
+                                </li>
+                                <li class="FuncionalesIngles">
+                                    <p>Protein:</p>
+                                    <p>soy protein, banana & orange</p>
+                                </li>
+
+                                <li class="FuncionalesEspañol">
+                                    <p>Verde:</p>
+                                    <p>piña, apio, pepino y espinaca</p>
+                                </li>
+                                <li class="FuncionalesIngles">
+                                    <p>Green:</p>
+                                    <p>Pineapple, celery, cucumber & spinach</p>
+                                </li>
+                            </div>
+
+
+
+                        </ul>
+                    </section>
+
+                </section>
+            </section>
+
+            <section class="menu">
+                <section class="containerComida">
+                    <section>
+                        <div id="container">
+                            <div class="figura" style="background-color: var(--AzulCielo-);">
+
+                            </div>
+                            <div class="frase">
+                                <h3 class="CategoriaMenu-español">Bebidas Calientes</h3>
+                                <h3 class="CategoriaMenu-ingles">Hot Drinks</h3>
+                            </div>
+                        </div>
+                        <ul class="listaComida">
+                            <table class="tablaBebidasCalientesEspañol">
+                                <tr>
+                                    <th></th>
+                                    <th class="negrita">Peq</th>
+                                    <th class="negrita" >Gde</th>
+                                </tr>
+                                <tr>
+                                    <th class="negrita">Espresso </th>
+                                    <th>₡700</th>
+                                    <th>₡1.200</th>
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Café negro</td>
+                                    <td>₡850</td>
+                                    <td>₡1.000</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Café con leche</td>
+                                    <td>₡1.000</td>
+                                    <td>₡1.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Cappuccino</td>
+                                    <td>₡1.250</td>
+                                    <td>₡1.400</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Mocaccino</td>
+                                    <td>₡1.350</td>
+                                    <td>₡1.450</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Chocolate</td>
+                                    <td>₡850</td>
+                                    <td>₡1.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Té</td>
+                                    <td></td>
+                                    <td>₡700</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Té en leche</td>
+                                    <td></td>
+                                    <td>₡1.000</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Chai latte</td>
+                                    <td></td>
+                                    <td>₡1.250</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Affogato</td>
+                                    <td></td>
+                                    <td>₡1.600</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="descEspañol" colspan="3">Bola de helado, shot de espresso y caramelo</td>
+                                </tr>
+
+                                <!-- Agrega el resto de las filas aquí -->
+                            </table>
+
+
+                            <!--tabla en ingles-->
+                            <table class="tablaBebidasCalientesIngles">
+                                <tr>
+                                    <th></th>
+                                    <th class="negrita">Small</th>
+                                    <th class="negrita">Large</th>
+                                </tr>
+                                <tr>
+                                    <th class="negrita">Espresso</th>
+                                    <th>₡700</th>
+                                    <th>₡1.200</th>
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Americano</td>
+                                    <td>₡850</td>
+                                    <td>₡1.000</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Coffee with milk</td>
+                                    <td>₡1.000</td>
+                                    <td>₡1.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Cappuccino</td>
+                                    <td>₡1.250</td>
+                                    <td>₡1.400</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Mocaccino</td>
+                                    <td>₡1.350</td>
+                                    <td>₡1.450</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Chocolate</td>
+                                    <td>₡850</td>
+                                    <td>₡1.200</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Tea</td>
+                                    <td></td>
+                                    <td>₡700</td>
+
+                                </tr>
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Milk Tea</td>
+                                    <td></td>
+                                    <td>₡1.000</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Chai Tea</td>
+                                    <td></td>
+                                    <td>₡1.250</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="negrita">Affogato</td>
+                                    <td></td>
+                                    <td>₡1.600</td>
+
+                                </tr>
+                                <tr>
+                                    <td class="descIngles" colspan="3">Ice cream scoop, espresso shot and caramel</td>
+                                </tr>
+                                <!-- Agrega el resto de las filas aquí -->
+                            </table>
+
+                            <h4 class="lecheEspañol">
+                                Leche de almendras, descremada
+                                o deslactosada +₡500
+                            </h4>
+                            <h4 class="lecheIngles">
+                                Almonds, skimmed
+                                or lactose-free milk +₡500
+                            </h4>
+
+                        </ul>
+                    </section>
+
+                </section>
+            </section>
+
+            <section class="menu">
+
+                <section class="containerComida">
+                    <section>
+                        <div id="container">
+                            <div class="figura" style="background-color: var(--amarillo-);">
+
+                            </div>
+                            <div class="frase">
+                                <h3 class="CategoriaMenu-español">Gaseosas y Refrescos</h3>
+                                <h3 class="CategoriaMenu-ingles">Soft drinks & drinks</h3>
+                            </div>
+                        </div>
+                        <ul class="listaComida">
+                            <li class="gaseosas">
+                                <p class="gaseosa-español" style="font-size: 20px; font-weight: bold;">Gaseosas</p>
+                                <p class="gaseosa-Ingles" style="font-size: 20px; font-weight: bold;">Soft drinks</p>
+                                <p></p>
+                            </li>
+                            <!--se agrega la clase de comida ingles para que aparezca la descripcion -->
+                            <li class="gaseosas">
+                                <p>192 ml</p>
+                                <p>₡500</p>
+                            </li>
+
+                            <li class="gaseosas">
+                                <p>355 ml</p>
+                                <p>₡1.000</p>
+                            </li>
+
+
+                            <li class="gaseosas">
+                                <p>600 ml</p>
+                                <p>₡1.300</p>
+                            </li>
+
+
+                            <li class="gaseosas">
+                                <p>1.500 ml</p>
+                                <p>₡1.650</p>
+                            </li>
+
+
+                            <li class="gaseosas">
+                                <p style="font-size: 20px; font-weight: bold;">Tropical</p>
+                                <p></p>
+                            </li>
+
+
+                            <li class="gaseosas">
+                                <p>500 ml</p>
+                                <p>₡1.300</p>
+                            </li>
+
+
+                            <li class="gaseosas">
+                                <p>1.750 ml</p>
+                                <p>₡1.800</p>
+                            </li>
+
+                            <li class="gaseosas">
+                                <p>Agua</p>
+                                <p>₡1.000</p>
+                            </li>
+                            <li class="gaseosas">
+                                <p>H2OH!</p>
+                                <p>₡1.300</p>
+                            </li>
+                        </ul>
+                    </section>
+
+                </section>
+
+
+                <section class="container-regresar">
+                    <button onclick="inicio()" id="botonRegresar"><- Regresar al inicio</button>
+                </section>
+    </main>
+    <div>
+        <footer class="footer">
+            <div class="waves">
+                <div class="waveV2" id="wave1"></div>
+                <div class="waveV2" id="wave2"></div>
+                <div class="waveV2" id="wave3"></div>
+                <div class="waveV2" id="wave4"></div>
+
+
+            </div>
+
+            <div class="div-container">
+                <div>
+                    <h2 class="footerEsp">Contactanos</h2>
+
+                    <!--ingles-->
+                    <h2 class="footerIng">Contact us</h2>
+
+
+                    <ul>
+                        <li>
+                            <ion-icon name="call-outline"></ion-icon>
+                            <a href="tel:2446 5605" target="_blank">2446 5605</a>
+                        </li>
+                        <li>
+                            <ion-icon name="location-outline"></ion-icon>
+                            <a class="muchaInfo" href="https://www.google.com/maps/search/?api=1&query=Soda Tío Mano"
+                                id="direccionFooter" target="_blank">
+                                80 metros oeste de la Parroquia
+                                San Rafael Arcángel,
+                                Atenas, Costa Rica
+                            </a>
+                        </li>
+                        <li>
+                            <a class="iconoWaseFooter" target="_blank" id="iconoWase"
+                                href="https://ul.waze.com/ul?place=ChIJJbpmsnpRoI8R_O4Zf-WP4PU&ll=9.97856470%2C-84.38091750&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+                                <img src="icon/waze blanco.png" alt="imagen de wase"> Llegá con Waze</a>
+
+                            <a class="iconoWaseFooterIngles" target="_blank" id="iconoWaseIngles"
+                                href="https://ul.waze.com/ul?place=ChIJJbpmsnpRoI8R_O4Zf-WP4PU&ll=9.97856470%2C-84.38091750&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+                                <img src="icon/waze blanco.png" alt="imagen de wase">Drive with Waze</a>
+
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <h2 class="footerEsp">Horario</h2>
+
+                    <!--ingles-->
+                    <h2 class="footerIng">Business hours</h2>
+
+                    <ul>
+                        <li>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <a class="horarioEspañol"> Lunes a sábado</a>
+                            <a class="horarioIngles">Monday - Saturday</a>
+
+                        </li>
+                        <li>
+                            <ion-icon name="time-outline"></ion-icon>
+                            <a class="muchaInfo" id="horafooter">8:00 am - 8:30 pm</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="footerEsp">Seguínos en redes sociales</h2>
+
+                    <!--ingles-->
+                    <h2 class="footerIng">Follow us on social media</h2>
+
+                    <ul>
+                        <li>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <a href="https://www.facebook.com/sodatiomano" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <a href="https://www.instagram.com/sodatiomano/" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                            <a href="https://www.tiktok.com/@sodatiomano/" target="_blank">Tik Tok</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p id="copy">&copy;Copyright | Soda Tío Mano</p>
+        </footer>
+    </div>
+
+    <!--scrip de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!--iconos-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!--js-->
+    <script src="js/scrip.js"></script>
+</body>
+
+</html>

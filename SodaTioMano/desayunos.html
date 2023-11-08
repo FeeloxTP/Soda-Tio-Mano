@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Tío Mano</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="inicioSubMenu">
+        <section class="container">
+            <nav id="navegado" class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
+                <div class="container-fluid">
+                    <img class="navbar-brand" src="img/logo clasico.jpg" id="logo" onclick="inicio()"></img>
+                    <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup " aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation ">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="index.html" id="textoDelMenu">Inicio</a>
+                            <a class="nav-link" href="#" id="textoDelMenuNosotros">Nosotros</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="info">
+                <section class="container-botn">
+                    <button type="button" id="boton-ingles">English</button>
+                </section>
+
+                <h1>Soda Tío Mano</h1>
+                <p class="texto-principal">
+                    La casa de la Leche Tica desde 1977
+                </p>
+
+                <p id="ingles1">
+                    The house of "Leche tica" since 1977
+                </p>
+
+            </section>
+        </section>
+    </header>
+    <main>
+        <section class="menu">
+
+            <section class="containerComida">
+                <section>
+                    <div id="container">
+                        <div class="figura" style="background-color: var(--AzulCielo-);">
+
+                        </div>
+                        <div class="frase">
+                            <h3 class="CategoriaMenu-español">Desayunos</h3>
+                            <h3 class="CategoriaMenu-ingles">Breakfasts</h3>
+                        </div>
+                    </div>
+                    <ul class="listaComida">
+                        <li class="comidaEspañol">
+                            <p>Tortilla aliñada</p>
+                            <p>₡1.800</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Cheese and corn tortilla</p>
+                            <p>₡1.800</p>
+                        </li><!--se agrega la clase de comida ingles para que aparezca la descripcion -->
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Tortilla de maíz con queso,
+                                    acompañada con natilla
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Corn tortilla with cheese,
+                                    served with sour cream
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Típico</p>
+                            <p>₡3.000</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>CostaRican Breakfast</p>
+                            <p>₡3.000</p>
+                        </li><!--se agrega la clase de comida ingles para que aparezca la descripcion -->
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Pinto, huevo (frito, torta o revuelto), tortilla,
+                                    plátano maduro y queso natural o frito
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Pinto, eggs(fried, omelette or scrambled),
+                                    tortilla, sweet plantains &
+                                    fresh or fried white cheese
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Americano </p>
+                            <p>₡3.000</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>American</p>
+                            <p>₡3.000</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Huevo, tocineta, tostadas con
+                                    mantequilla y mermelada
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Eggs, bacon, toasts with butter and jam
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Huevos Rancheros </p>
+                            <p>₡3.000</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Huevos Rancheros</p>
+                            <p>₡3.000</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Huevos con salsa ranchera y queso,
+                                    tortillas y frijoles molidos
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Fried eggs with ranchero sauce
+                                    and cheese, tortillas and mashed beans
+
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Waffle Dulce</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Sweet Waffle</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Frutas y un topping de chocolate,
+                                    miel de abeja, caramelo o fresa
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Fruits and topping of your choice
+                                    chocolate, honey, caramel or strawberry
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comidaEspañol">
+                            <p>Sándwich de waffle</p>
+                            <p>₡2.900</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Waffle sandwich</p>
+                            <p>₡2.900</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Huevo, jamón, queso, lechuga y tomate
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Egg, ham, cheese, lettuce and tomato
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Omelette</p>
+                            <p>₡2.700</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Omelette</p>
+                            <p>₡2.700</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Huevo, jamón, queso, tostadas y 2
+                                    ingredientes a elegir entre: cebolla,
+                                    chile, tomate o espinaca
+
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Egg, ham, cheese, toasts and two
+                                    ingredients of your choice: onion,
+                                    sweet pepper, tomato, or spinach
+
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Burrito de desayuno</p>
+                            <p>₡3.000</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Breakfast burrito</p>
+                            <p>₡3.000</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Tortilla de harina con pinto, huevo,
+                                    plátano maduro, jamón y queso
+
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Flour tortilla width pinto, eggs,
+                                    sweet plantains, ham and cheese
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Saludable</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Healthy</p>
+                            <p>₡2.500</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Avena integral preparada
+                                    con leche y frutas
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Whole grain oats with milk and fruits
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Tostadas</p>
+                            <p>₡600</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Toasts</p>
+                            <p>₡600</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Dos tostadas de pan cuadrado
+                                    y mantequilla
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Two white bread toasts with butter
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Pan con natilla</p>
+                            <p>₡900</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Bread with sour cream</p>
+                            <p>₡900</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Pan blanco relleno de natilla
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Baghette slice filled with sour cream
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Natilla con pan</p>
+                            <p>₡1.200</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Sour creme with bread</p>
+                            <p>₡1.200</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Trozos de pan blanco con
+                                    porción de natilla
+
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Baghette slice with sour cream sider
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="comidaEspañol">
+                            <p>Maduro con queso</p>
+                            <p>₡1.800</p>
+                        </li>
+                        <li class="comida-ingles">
+                            <p>Plantain with cheese</p>
+                            <p>₡1.800</p>
+                        </li>
+                        <li class="comidaEspañol-descripcion">
+                            <div class="descripcion">
+                                <p>
+                                    Plátano maduro cubierto
+                                    con queso derretido
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comida-ingles">
+                            <div class="descripcion">
+                                <p>
+                                    Sweet plantain covered with melted cheese
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+            </section>
+            <!--extras-->
+            <section class="menu">
+                <section class="contenedorExtras">
+                    <section>
+                        <h1>Extras</h1>
+                        <ul class="listaExtra">
+
+                            <li class="extraEspañol">
+                                <p>Pico de gallo</p>
+                                <p>₡500</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Pico de gallo</p>
+                                <p>₡500</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Guacamole</p>
+                                <p>₡800</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Guacamole</p>
+                                <p>₡800</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Frijoles</p>
+                                <p>₡500</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Beans</p>
+                                <p>₡500</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Huevo al gusto</p>
+                                <p>₡800</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Eggs any style</p>
+                                <p>₡800</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Jamón</p>
+                                <p>₡500</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Ham</p>
+                                <p>₡500</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Natilla</p>
+                                <p>₡800</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>
+                                    Sour cream
+                                </p>
+                                <p>₡800</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Pan</p>
+                                <p>₡500</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Baghette slice</p>
+                                <p>₡500</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <div class="extraLarge">
+                                    <p>
+                                        Queso blanco
+                                        (frito o fresco)
+                                    </p>
+                                </div>
+                                <p>₡800</p>
+                            </li>
+                            <li class="extraIngles">
+                                <div class="extraLarge">
+                                    <p>
+                                        White cheese
+                                        (fried o fresh)
+                                    </p>
+                                </div>
+                                <p>₡800</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Queso amarillo</p>
+                                <p>₡500</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>American cheese</p>
+                                <p>₡500</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Tocineta</p>
+                                <p>₡900</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Bacon </p>
+                                <p>₡900</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Tortillas (2)</p>
+                                <p>₡500</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Tortillas (2)</p>
+                                <p>₡500</p>
+                            </li>
+
+
+                            <li class="extraEspañol">
+                                <p>Salchichón</p>
+                                <p>₡1.000</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Costa Rican Sausage</p>
+                                <p>₡1.000</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Plátano maduro</p>
+                                <p>₡500</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Sweet plantains</p>
+                                <p>₡500</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Carne</p>
+                                <p>₡1.200</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Shredded steak </p>
+                                <p>₡1.200</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Salchicha</p>
+                                <p>₡600</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Sausage </p>
+                                <p>₡600</p>
+                            </li>
+
+                            <li class="extraEspañol">
+                                <p>Gallo Pinto</p>
+                                <p>₡1.200</p>
+                            </li>
+                            <li class="extraIngles">
+                                <p>Gallo Pinto</p>
+                                <p>₡1.200</p>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+
+            <section class="container-regresar">
+                <button onclick="inicio()" id="botonRegresar"><- Regresar al inicio</button>
+            </section>
+    </main>
+    <div>
+        <footer class="footer">
+            <div class="waves">
+                <div class="waveV2" id="wave1"></div>
+                <div class="waveV2" id="wave2"></div>
+                <div class="waveV2" id="wave3"></div>
+                <div class="waveV2" id="wave4"></div>
+
+
+            </div>
+
+            <div class="div-container">
+                <div>
+                    <h2 class="footerEsp">Contactanos</h2>
+
+                    <!--ingles-->
+                    <h2 class="footerIng">Contact us</h2>
+
+
+                    <ul>
+                        <li>
+                            <ion-icon name="call-outline"></ion-icon>
+                            <a href="tel:2446 5605" target="_blank">2446 5605</a>
+                        </li>
+                        <li>
+                            <ion-icon name="location-outline"></ion-icon>
+                            <a class="muchaInfo" href="https://www.google.com/maps/search/?api=1&query=Soda Tío Mano"
+                                id="direccionFooter" target="_blank">
+                                80 metros oeste de la Parroquia
+                                San Rafael Arcángel,
+                                Atenas, Costa Rica
+                            </a>
+                        </li>
+                        <li>
+                            <a class="iconoWaseFooter" target="_blank" id="iconoWase"
+                                href="https://ul.waze.com/ul?place=ChIJJbpmsnpRoI8R_O4Zf-WP4PU&ll=9.97856470%2C-84.38091750&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+                                <img src="icon/waze blanco.png" alt="imagen de wase"> Llegá con Waze</a>
+
+                            <a class="iconoWaseFooterIngles" target="_blank" id="iconoWaseIngles"
+                                href="https://ul.waze.com/ul?place=ChIJJbpmsnpRoI8R_O4Zf-WP4PU&ll=9.97856470%2C-84.38091750&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+                                <img src="icon/waze blanco.png" alt="imagen de wase">Drive with Waze</a>
+
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <h2 class="footerEsp">Horario</h2>
+
+                    <!--ingles-->
+                    <h2 class="footerIng">Business hours</h2>
+
+                    <ul>
+                        <li>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <a class="horarioEspañol"> Lunes a sábado</a>
+                            <a class="horarioIngles">Monday - Saturday</a>
+
+                        </li>
+                        <li>
+                            <ion-icon name="time-outline"></ion-icon>
+                            <a class="muchaInfo" id="horafooter">8:00 am - 8:30 pm</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="footerEsp">Seguínos en redes sociales</h2>
+
+                    <!--ingles-->
+                    <h2 class="footerIng">Follow us on social media</h2>
+
+                    <ul>
+                        <li>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <a href="https://www.facebook.com/sodatiomano" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <a href="https://www.instagram.com/sodatiomano/" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                            <a href="https://www.tiktok.com/@sodatiomano/" target="_blank">Tik Tok</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p id="copy">&copy;Copyright | Soda Tío Mano</p>
+        </footer>
+    </div>
+
+    <!--scrip de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!--iconos-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!--js-->
+    <script src="js/scrip.js"></script>
+</body>
+
+</html>

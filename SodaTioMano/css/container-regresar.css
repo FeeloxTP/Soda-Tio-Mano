@@ -1,0 +1,26 @@
+.container-regresar {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 9%;
+}
+
+.container-regresar button {
+    font-family: arial;
+    color: #14396A !important;
+    font-size: 14px;
+
+    padding: 10px 25px;
+    border-radius: 0px;
+    border: 2px groove #3866A3;
+    background: white;
+    background: linear-gradient(to top, white, white);
+}
+
+.footer{
+    background-color: var(--amarillo-) ;
+}
+
