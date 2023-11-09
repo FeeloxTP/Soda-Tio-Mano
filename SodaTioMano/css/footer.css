@@ -172,8 +172,8 @@ footer div img {
 
 .iconoWaseFooter img {
     width: 15px;
-    margin-right: 26px;
-    transform: translate(0px, -5px) !important;
+    margin-right: 29px;
+    transform: translate(3px, -5px) !important;
 
 }
 
@@ -182,13 +182,13 @@ footer div img {
     margin: 0 !important;
     padding: 0 !important;
     transform: translate(-15px, 0px) !important;
-
+ 
 }
 
 .iconoWaseFooterIngles img {
     width: 15px;
-    margin-right: 26px;
-    transform: translate(0px, -5px) !important;
+    margin-right: 29px;
+    transform: translate(3px, -5px) !important;
 
 }
 

@@ -15,8 +15,7 @@ var extraEspañol = "";
 var extraIngles = "";
 var TablaBebidasEspañol = "";
 var TablaBebidasIngles = "";
-var hierbabuenaEspañol = "";
-var hierbabuenaIngles = "";
+
 var FuncionalesEspañol = "";
 var FuncionalesIngles = "";
 var lecheingles = "";
@@ -87,9 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
     TablaBebidasEspañol = document.querySelectorAll(".tablaBebidasEspañol");
     TablaBebidasIngles = document.querySelectorAll(".tablaBebidasIngles");
 
-    //hierbabuena
-    hierbabuenaEspañol = document.querySelector(".hierbabuenaEspañol");
-    hierbabuenaIngles = document.querySelector(".hierbabuenaIngles");
+    
 
     //tablas de bebidas calientes
     tablaBebidasCalientesEspañol = document.querySelector(".tablaBebidasCalientesEspañol");
@@ -262,11 +259,7 @@ function translate2() {
 
     }
 
-    //hierba buena
-    if (hierbabuenaEspañol != null) {
-        hierbabuenaEspañol.style.display = "none";
-        hierbabuenaIngles.style.display = "grid";
-    }
+    
     if (lecheEspañol != null) {
         lecheEspañol.style.display = "none";
         lecheingles.style.display = "grid";
@@ -413,11 +406,7 @@ function cargarPantalla() {
             }
 
 
-            //hierba buena
-            if (hierbabuenaEspañol != null) {
-                hierbabuenaEspañol.style.display = "none";
-                hierbabuenaIngles.style.display = "grid";
-            }
+            
 
             if (lecheEspañol != null) {
                 lecheEspañol.style.display = "none";
@@ -583,11 +572,7 @@ function traducirEspañol() {
         tablaBebidasCalientesIngles.style.display = "none";
     }
 
-    //hierba buena
-    if (hierbabuenaEspañol != null) {
-        hierbabuenaEspañol.style.display = "grid";
-        hierbabuenaIngles.style.display = "none";
-    }
+    
 
     if (lecheEspañol != null) {
         lecheEspañol.style.display = "grid";
