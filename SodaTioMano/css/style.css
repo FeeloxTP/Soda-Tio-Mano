@@ -336,4 +336,9 @@
         height: 28px;
     }
 
+    .iconoWaseFooter{
+        transform: translate(-13px, 0px) !important;
+
+    }
+
 }
