@@ -46,8 +46,25 @@
     width: 100%;
     height: auto;
     box-sizing: border-box;
+    
 
+}
 
+.partesMenu{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.partesMenu div{
+    width: 35%;
+    transform: translate(10px,10px);
+}
+
+.opciones{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .info {
