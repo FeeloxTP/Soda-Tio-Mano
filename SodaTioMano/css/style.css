@@ -1,4 +1,5 @@
 @import "fuentes.css";
+@import "Nosotros.css";
 @import "contacto.css";
 @import "common.css";
 @import "inicio.css";
@@ -35,15 +36,21 @@
 
 @media (max-width: 767px) {
     .inicioIndex {
-        height: 780px;
+        height: 680px;
     }
 
     .inicioSubMenu{
-        height: 550px;
+        height: 450px;
     }
 
     .partesMenu div{
         width: 60%;
+    }
+
+    .containerNosotros div{
+        width: 90%;
+        margin-bottom: 5%;
+
     }
 
     .texto-principal {
