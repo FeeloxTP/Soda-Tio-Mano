@@ -45,6 +45,10 @@ var iconoWaseFooterIngles = "";
 var direccionFooter = "";
 var horafooter = "";
 var botonRegresar = "";
+var agua = "";
+var diseñoEspañol = "";
+var diseñoIngles = "";
+
 let colspan = 0;
 
 
@@ -86,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
     TablaBebidasEspañol = document.querySelectorAll(".tablaBebidasEspañol");
     TablaBebidasIngles = document.querySelectorAll(".tablaBebidasIngles");
 
-    
+    agua = document.getElementById("agua");
 
     //tablas de bebidas calientes
     tablaBebidasCalientesEspañol = document.querySelector(".tablaBebidasCalientesEspañol");
@@ -114,6 +118,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     horafooter = document.getElementById("horafooter");
     botonRegresar = document.getElementById("botonRegresar");
+
+    diseñoEspañol = document.querySelector(".diseñoEspañol");
+    diseñoIngles = document.querySelector(".diseñoIngles");
     //gaseosas
     gaseosaEspañol = document.querySelector(".gaseosa-español");
     gaseosaIngles = document.querySelector(".gaseosa-Ingles");
@@ -241,6 +248,10 @@ function translate2() {
     TablaBebidasIngles.forEach(bebidaIng => {
         bebidaIng.style.display = "table";
     });
+    if (agua) {
+        agua.innerHTML = "Bottled water";
+
+    }
 
     //Funcionales
     FuncionalesEspañol.forEach(funcEsp => {
@@ -259,7 +270,7 @@ function translate2() {
 
     }
 
-    
+
     if (lecheEspañol != null) {
         lecheEspañol.style.display = "none";
         lecheingles.style.display = "grid";
@@ -296,10 +307,15 @@ function translate2() {
     iconoWaseFooterIngles.style.display = "flex";
     direccionFooter.innerHTML = "80 meters west of San Rafael Arcangel Parish, Atenas, Costa Rica";
     horafooter.innerHTML = "8:00 - 20:30";
-    if(botonRegresar != null){
+    if (botonRegresar != null) {
         botonRegresar.innerText = "<- Return to homepage";
 
     }
+
+    diseñoEspañol.style.display = "none";
+
+    diseñoIngles.style.display = "block";
+
 }
 
 
@@ -389,6 +405,11 @@ function cargarPantalla() {
                 bebidaIng.style.display = "table";
             });
 
+
+            if(agua){
+                agua.innerHTML = "Bottled water";
+            }
+        
             //Funcionales
             FuncionalesEspañol.forEach(funcEsp => {
                 funcEsp.style.display = "none";
@@ -406,7 +427,7 @@ function cargarPantalla() {
             }
 
 
-            
+
 
             if (lecheEspañol != null) {
                 lecheEspañol.style.display = "none";
@@ -444,11 +465,14 @@ function cargarPantalla() {
             iconoWaseFooterIngles.style.display = "flex";
             direccionFooter.innerHTML = "80 meters west of San Rafael Arcangel Parish, Atenas, Costa Rica";
             horafooter.innerHTML = "8:00 - 20:30";
-            if(botonRegresar != null){
+            if (botonRegresar != null) {
                 botonRegresar.innerText = "<- Return to homepage";
-        
+
             }
 
+            diseñoEspañol.style.display = "none";
+
+            diseñoIngles.style.display = "block";
         }
     }
 }
@@ -556,6 +580,12 @@ function traducirEspañol() {
         bebidaIng.style.display = "none";
     });
 
+    if(agua){
+        agua.innerHTML = "Agua";
+    }
+
+
+
     //Funcionales
     FuncionalesEspañol.forEach(funcEsp => {
         funcEsp.style.display = "flex";
@@ -572,7 +602,7 @@ function traducirEspañol() {
         tablaBebidasCalientesIngles.style.display = "none";
     }
 
-    
+
 
     if (lecheEspañol != null) {
         lecheEspañol.style.display = "grid";
@@ -611,7 +641,11 @@ function traducirEspañol() {
     direccionFooter.innerHTML = "80 metros oeste de la Parroquia San Rafael Arcángel, Atenas, Costa Rica";
     horafooter.innerHTML = "8:00 am - 8:30 pm";
 
-    if(botonRegresar != null){
+    if (botonRegresar != null) {
         botonRegresar.innerText = "<- Regresar al inicio";
     }
+
+    diseñoEspañol.style.display = "block";
+
+    diseñoIngles.style.display = "none";
 }
