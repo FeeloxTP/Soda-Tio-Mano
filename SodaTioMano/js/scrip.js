@@ -53,7 +53,7 @@ let colspan = 0;
 
 document.addEventListener('DOMContentLoaded', function () {
     textoDelMenuInicio = document.getElementById("textoDelMenu");
-    textoDelMenuNosotros = document.getElementById("textoDelMenuNosotros");
+    //textoDelMenuNosotros = document.getElementById("textoDelMenuNosotros");
 
     boton = document.getElementById("boton-ingles");
     texto1 = document.querySelector(".texto-principal");// es el texto principal del index
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function translate2() {
     //texto del menu del bootstrap
     textoDelMenuInicio.innerHTML = "Home ";
-    textoDelMenuNosotros.innerHTML = "About us";
+   // textoDelMenuNosotros.innerHTML = "About us"; la seccion del menu de Nosotros
     //index
     texto1.style.display = "none";
     textoIngles1.style.display = "grid";
@@ -322,7 +322,7 @@ function cargarPantalla() {
         if (memRegistro != null) {
             //texto del menu del bootstrap
             textoDelMenuInicio.innerHTML = "Home";
-            textoDelMenuNosotros.innerHTML = "About us";
+           // textoDelMenuNosotros.innerHTML = "About us";
 
             //index
             texto1.style.display = "none";
@@ -500,7 +500,7 @@ function traducirEspañol() {
 
     //texto del menu del bootstrap
     textoDelMenuInicio.innerHTML = "Inicio";
-    textoDelMenuNosotros.innerHTML = "Nosotros";
+   // textoDelMenuNosotros.innerHTML = "Nosotros";
 
     //index
     texto1.style.display = "grid";
