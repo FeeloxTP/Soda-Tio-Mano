@@ -46,8 +46,7 @@ var direccionFooter = "";
 var horafooter = "";
 var botonRegresar = "";
 var agua = "";
-var diseñoEspañol = "";
-var diseñoIngles = "";
+
 
 let colspan = 0;
 
@@ -119,8 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
     horafooter = document.getElementById("horafooter");
     botonRegresar = document.getElementById("botonRegresar");
 
-    diseñoEspañol = document.querySelector(".diseñoEspañol");
-    diseñoIngles = document.querySelector(".diseñoIngles");
+    
     //gaseosas
     gaseosaEspañol = document.querySelector(".gaseosa-español");
     gaseosaIngles = document.querySelector(".gaseosa-Ingles");
@@ -312,9 +310,6 @@ function translate2() {
 
     }
 
-    diseñoEspañol.style.display = "none";
-
-    diseñoIngles.style.display = "block";
 
 }
 
@@ -470,9 +465,7 @@ function cargarPantalla() {
 
             }
 
-            diseñoEspañol.style.display = "none";
-
-            diseñoIngles.style.display = "block";
+            
         }
     }
 }
@@ -645,7 +638,5 @@ function traducirEspañol() {
         botonRegresar.innerText = "<- Regresar al inicio";
     }
 
-    diseñoEspañol.style.display = "block";
-
-    diseñoIngles.style.display = "none";
+    
 }
