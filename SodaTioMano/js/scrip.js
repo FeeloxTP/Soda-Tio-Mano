@@ -131,6 +131,8 @@ document.addEventListener('DOMContentLoaded', function () {
     centradoEsp = document.querySelector(".centradoEsp");
     centradoIng = document.querySelector(".centradoIng");
 
+    
+
     cargarPantalla();
 });
 
@@ -155,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
             contador = 0;
         }
     });
-});
+ });
 
 
 
@@ -310,6 +312,7 @@ function translate2() {
 
     }
 
+    cargarPantalla();
 
 }
 
