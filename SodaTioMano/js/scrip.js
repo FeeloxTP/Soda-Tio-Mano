@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
     horafooter = document.getElementById("horafooter");
     botonRegresar = document.getElementById("botonRegresar");
 
-    
+
     //gaseosas
     gaseosaEspañol = document.querySelector(".gaseosa-español");
     gaseosaIngles = document.querySelector(".gaseosa-Ingles");
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
     centradoEsp = document.querySelector(".centradoEsp");
     centradoIng = document.querySelector(".centradoIng");
 
-    
+
 
     cargarPantalla();
 });
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
             contador = 0;
         }
     });
- });
+});
 
 
 
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function translate2() {
     //texto del menu del bootstrap
     textoDelMenuInicio.innerHTML = "Home ";
-   // textoDelMenuNosotros.innerHTML = "About us"; la seccion del menu de Nosotros
+    // textoDelMenuNosotros.innerHTML = "About us"; la seccion del menu de Nosotros
     //index
     texto1.style.display = "none";
     textoIngles1.style.display = "grid";
@@ -324,12 +324,15 @@ function cargarPantalla() {
         if (memRegistro != null) {
             //texto del menu del bootstrap
             textoDelMenuInicio.innerHTML = "Home";
-           // textoDelMenuNosotros.innerHTML = "About us";
+            // textoDelMenuNosotros.innerHTML = "About us";
 
             //index
             texto1.style.display = "none";
             textoIngles1.style.display = "grid";
-            boton.innerHTML = "Español";
+            if (boton) {
+                boton.innerHTML = "Español";
+
+            }
             contador = memRegistro[1];
 
             //titulo menu
@@ -403,10 +406,10 @@ function cargarPantalla() {
             });
 
 
-            if(agua){
+            if (agua) {
                 agua.innerHTML = "Bottled water";
             }
-        
+
             //Funcionales
             FuncionalesEspañol.forEach(funcEsp => {
                 funcEsp.style.display = "none";
@@ -467,7 +470,7 @@ function cargarPantalla() {
 
             }
 
-            
+
         }
     }
 }
@@ -502,7 +505,7 @@ function traducirEspañol() {
 
     //texto del menu del bootstrap
     textoDelMenuInicio.innerHTML = "Inicio";
-   // textoDelMenuNosotros.innerHTML = "Nosotros";
+    // textoDelMenuNosotros.innerHTML = "Nosotros";
 
     //index
     texto1.style.display = "grid";
@@ -575,7 +578,7 @@ function traducirEspañol() {
         bebidaIng.style.display = "none";
     });
 
-    if(agua){
+    if (agua) {
         agua.innerHTML = "Agua";
     }
 
@@ -640,5 +643,5 @@ function traducirEspañol() {
         botonRegresar.innerText = "<- Regresar al inicio";
     }
 
-    
+
 }
