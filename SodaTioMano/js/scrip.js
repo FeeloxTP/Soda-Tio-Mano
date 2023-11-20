@@ -312,7 +312,6 @@ function translate2() {
 
     }
 
-    cargarPantalla();
 
 }
 
