@@ -45,6 +45,10 @@ var iconoWaseFooterIngles = "";
 var direccionFooter = "";
 var horafooter = "";
 var botonRegresar = "";
+var nosotrosEspa = "";
+var nosotrosIngles = "";
+var tituloNosotros = "";
+
 var agua = "";
 
 
@@ -53,7 +57,7 @@ let colspan = 0;
 
 document.addEventListener('DOMContentLoaded', function () {
     textoDelMenuInicio = document.getElementById("textoDelMenu");
-    //textoDelMenuNosotros = document.getElementById("textoDelMenuNosotros");
+    textoDelMenuNosotros = document.getElementById("textoDelMenuNosotros");
 
     boton = document.getElementById("boton-ingles");
     texto1 = document.querySelector(".texto-principal");// es el texto principal del index
@@ -62,7 +66,9 @@ document.addEventListener('DOMContentLoaded', function () {
     tituloMenuEsp = document.getElementById("titulo-menu");
     tituloMenuIng = document.getElementById("titulo-menu-ingles");
 
-
+    tituloNosotros = document.getElementById("tituloNosotros");
+    nosotrosEspa = document.getElementById("nosotrosEspa");
+    nosotrosIngles = document.getElementById("nosotrosIngles");
     //el menu principal
     MenuCommmidaEspañol = document.querySelectorAll(".MenuCommmidaEspañol");
     MenuCommmidaIngles = document.querySelectorAll(".MenuCommmidaIngles");
@@ -175,7 +181,15 @@ document.addEventListener('DOMContentLoaded', function () {
 function translate2() {
     //texto del menu del bootstrap
     textoDelMenuInicio.innerHTML = "Home ";
-    // textoDelMenuNosotros.innerHTML = "About us"; la seccion del menu de Nosotros
+    textoDelMenuNosotros.innerHTML = "About us"; //la seccion del menu de Nosotros
+    
+    if (tituloNosotros) {
+        tituloNosotros.innerHTML = "About us";
+        nosotrosEspa.style.display = "none";
+        nosotrosIngles.style.display = "block";
+
+    }
+
     //index
     texto1.style.display = "none";
     textoIngles1.style.display = "grid";
@@ -186,6 +200,7 @@ function translate2() {
         tituloMenuEsp.style.display = "none";
         tituloMenuIng.style.display = "grid";
     }
+
 
     //el menu principal
     MenuCommmidaEspañol.forEach(menuEsp => {
@@ -324,7 +339,14 @@ function cargarPantalla() {
         if (memRegistro != null) {
             //texto del menu del bootstrap
             textoDelMenuInicio.innerHTML = "Home";
-            // textoDelMenuNosotros.innerHTML = "About us";
+            textoDelMenuNosotros.innerHTML = "About us";
+
+            if (tituloNosotros) {
+                tituloNosotros.innerHTML = "About us";
+                nosotrosEspa.style.display = "none";
+                nosotrosIngles.style.display = "block";
+
+            }
 
             //index
             texto1.style.display = "none";
@@ -335,11 +357,15 @@ function cargarPantalla() {
             }
             contador = memRegistro[1];
 
+
+
             //titulo menu
             if (tituloMenuEsp != null) {
                 tituloMenuEsp.style.display = "none";
                 tituloMenuIng.style.display = "grid";
             }
+
+
 
             //el menu principal
             MenuCommmidaEspañol.forEach(menuEsp => {
@@ -505,7 +531,15 @@ function traducirEspañol() {
 
     //texto del menu del bootstrap
     textoDelMenuInicio.innerHTML = "Inicio";
-    // textoDelMenuNosotros.innerHTML = "Nosotros";
+    textoDelMenuNosotros.innerHTML = "Nosotros";
+
+
+    if (tituloNosotros) {
+        tituloNosotros.innerHTML = "Nosotros";
+        nosotrosEspa.style.display = "block";
+        nosotrosIngles.style.display = "none";
+
+    }
 
     //index
     texto1.style.display = "grid";
@@ -517,6 +551,9 @@ function traducirEspañol() {
         tituloMenuEsp.style.display = "grid";
         tituloMenuIng.style.display = "none";
     }
+
+
+
 
     //el menu principal
     MenuCommmidaEspañol.forEach(menuEsp => {

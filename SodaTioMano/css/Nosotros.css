@@ -21,3 +21,7 @@
 .containerNosotros div h1{
     color: var(--salmon-);
 }
+
+#nosotrosIngles{
+    display: none;
+}
