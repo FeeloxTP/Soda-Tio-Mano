@@ -15,12 +15,15 @@
     font-family: "Avenir",Arial, Helvetica, sans-serif;
     margin-bottom: 3%;
     padding-left: 2%;
+    text-align: justify;
 
 }
 
 .containerNosotros div h1{
-    color: var(--salmon-);
+    text-align: center;
 }
+
+
 
 #nosotrosIngles{
     display: none;
